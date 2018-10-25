@@ -80,7 +80,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/profiles">
                   {" "}
-                  classmates
+                  Classmates
                 </Link>
               </li>
             </ul>
