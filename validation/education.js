@@ -30,3 +30,4 @@ module.exports = function validateEducationInput(data) {
     isValid: isEmpty(errors)
   };
 };
+//tested ok

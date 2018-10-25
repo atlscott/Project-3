@@ -25,3 +25,4 @@ module.exports = function validateExperienceInput(data) {
     isValid: isEmpty(errors)
   };
 };
+//tested ok
