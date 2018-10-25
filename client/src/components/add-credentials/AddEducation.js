@@ -37,7 +37,7 @@ class AddEducation extends Component {
 
     const eduData = {
       school: this.state.school,
-      degree: this.state.title,
+      degree: this.state.degree,
       fieldofstudy: this.state.fieldofstudy,
       from: this.state.from,
       to: this.state.to,
@@ -84,7 +84,7 @@ class AddEducation extends Component {
                   error={errors.school}
                 />
                 <TextFieldGroup
-                  placeholder="* Degree or Certification"
+                  placeholder="* Degree/Certification"
                   name="degree"
                   value={this.state.degree}
                   onChange={this.onChange}
