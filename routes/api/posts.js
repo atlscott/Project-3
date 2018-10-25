@@ -192,7 +192,7 @@ router.delete(
   (req, res) => {
     Post.findById(req.params.id)
       .then(post => {
-        //see if comment exists
+        //see if comment is here
         if (
           post.comments.filter(
             comment => comment._id.toString() === req.params.comment_id

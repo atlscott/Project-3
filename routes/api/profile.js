@@ -249,7 +249,7 @@ router.delete(
         //splice out of array
         profile.experience.splice(removeIndex, 1);
 
-        //save
+        //save or throw error
         profile.save().then(profile => res.json(profile));
       })
       .catch(err => res.status(404).json(err));
