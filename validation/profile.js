@@ -65,3 +65,4 @@ module.exports = function validateProfileInput(data) {
     isValid: isEmpty(errors)
   };
 };
+//tested ok
