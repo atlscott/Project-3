@@ -6,8 +6,8 @@ class ProfileGithub extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      clientId: "",
-      clientSecret: "",
+      clientId: "1b0d928b2f67e259e9ef",
+      clientSecret: "0fa0eaccae6bdabea0ad8ab894557da032e52d3f",
       count: 5,
       sort: "created: asc",
       repos: []
@@ -59,7 +59,7 @@ class ProfileGithub extends Component {
       </div>
     ));
     return (
-      <div>
+      <div ref="myRef">
         <hr />
         <h3 className="mb-4">Latest Github Repos</h3>
         {repoItems}

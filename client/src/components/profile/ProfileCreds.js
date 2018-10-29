@@ -36,7 +36,7 @@ class ProfileCreds extends Component {
       </li>
     ));
 
-    const eduItems = experience.map(edu => (
+    const eduItems = education.map(edu => (
       <li key={edu._id} className="list-group-item">
         <h4>{edu.school}</h4>
         <p>

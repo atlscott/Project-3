@@ -72,7 +72,7 @@ class AddEducation extends Component {
               </Link>
               <h1 className="display-4 text-center">Add Education</h1>
               <p className="lead text-center">
-                Add any school, bootcamp, etc., that youn have attended
+                Add any school, bootcamp, etc., that you have attended
               </p>
               <small className="d-block pb-3">* = required fields</small>
               <form onSubmit={this.onSubmit}>
@@ -121,7 +121,7 @@ class AddEducation extends Component {
                     name="current"
                     value={this.state.current}
                     checked={this.state.current}
-                    onChange={this.Check}
+                    onChange={this.onCheck}
                     id="current"
                   />
                   <label htmlFor="current" className="form-check-label">
