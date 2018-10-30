@@ -19,7 +19,7 @@ class Landing extends Component {
               <div className="col-md-12 text-center">
                 <h1 className="display-3 mb-4">
                   GT Coding Bootcamp <br />
-                  Cohort 6 (May - Nov 2018)
+                  Cohort 8 (May - Nov 2018)
                 </h1>
                 <p className="lead">
                   {" "}
